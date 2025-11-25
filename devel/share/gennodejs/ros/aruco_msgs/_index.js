@@ -1,0 +1,1 @@
+/home/lounes_bh/tiago_ws/devel/.private/aruco_msgs/share/gennodejs/ros/aruco_msgs/_index.js

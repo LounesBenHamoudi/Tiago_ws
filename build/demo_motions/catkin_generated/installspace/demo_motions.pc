@@ -1,0 +1,8 @@
+prefix=/home/lounes_bh/tiago_ws/install
+
+Name: demo_motions
+Description: Description of demo_motions
+Version: 2.0.4
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

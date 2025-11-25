@@ -1,0 +1,1 @@
+/home/lounes_bh/tiago_ws/devel/.private/tiago_opencv_tutorial/share/roseus/ros/tiago_opencv_tutorial/manifest.l

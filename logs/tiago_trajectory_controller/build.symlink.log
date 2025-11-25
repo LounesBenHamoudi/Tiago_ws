@@ -1,0 +1,4 @@
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/tiago_trajectory_controller/run_traj_control
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/pkgconfig/tiago_trajectory_controller.pc
+Symlinking /home/lounes_bh/tiago_ws/devel/share/tiago_trajectory_controller/cmake/tiago_trajectory_controllerConfig.cmake
+Symlinking /home/lounes_bh/tiago_ws/devel/share/tiago_trajectory_controller/cmake/tiago_trajectory_controllerConfig-version.cmake

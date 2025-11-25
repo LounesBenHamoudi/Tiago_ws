@@ -1,0 +1,1 @@
+/home/lounes_bh/tiago_ws/devel/.private/pal_walking_msgs/include/pal_walking_msgs/MoveHipFeet.h

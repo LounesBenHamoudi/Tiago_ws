@@ -1,0 +1,1 @@
+/home/lounes_bh/tiago_ws/devel/.private/temperature_sensor_controller/share/roseus/ros/temperature_sensor_controller/manifest.l

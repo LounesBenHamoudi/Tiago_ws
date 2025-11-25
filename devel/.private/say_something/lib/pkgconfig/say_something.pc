@@ -1,0 +1,8 @@
+prefix=/home/lounes_bh/tiago_ws/devel/.private/say_something
+
+Name: say_something
+Description: Description of say_something
+Version: 2.0.4
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

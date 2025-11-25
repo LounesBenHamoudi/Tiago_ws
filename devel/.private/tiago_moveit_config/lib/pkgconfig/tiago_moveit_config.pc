@@ -1,0 +1,8 @@
+prefix=/home/lounes_bh/tiago_ws/devel/.private/tiago_moveit_config
+
+Name: tiago_moveit_config
+Description: Description of tiago_moveit_config
+Version: 1.2.15
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

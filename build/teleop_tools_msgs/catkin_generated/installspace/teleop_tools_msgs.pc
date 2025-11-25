@@ -1,0 +1,8 @@
+prefix=/home/lounes_bh/tiago_ws/install
+
+Name: teleop_tools_msgs
+Description: Description of teleop_tools_msgs
+Version: 1000.4.2
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime actionlib_msgs

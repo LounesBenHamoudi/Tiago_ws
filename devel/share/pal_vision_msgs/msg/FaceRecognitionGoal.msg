@@ -1,0 +1,1 @@
+/home/lounes_bh/tiago_ws/devel/.private/pal_vision_msgs/share/pal_vision_msgs/msg/FaceRecognitionGoal.msg

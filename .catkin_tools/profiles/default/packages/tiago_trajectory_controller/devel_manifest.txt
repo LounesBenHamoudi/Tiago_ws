@@ -1,0 +1,5 @@
+tiago_tutorials/tiago_trajectory_controller
+/home/lounes_bh/tiago_ws/devel/.private/tiago_trajectory_controller/lib/tiago_trajectory_controller/run_traj_control /home/lounes_bh/tiago_ws/devel/lib/tiago_trajectory_controller/run_traj_control
+/home/lounes_bh/tiago_ws/devel/.private/tiago_trajectory_controller/lib/pkgconfig/tiago_trajectory_controller.pc /home/lounes_bh/tiago_ws/devel/lib/pkgconfig/tiago_trajectory_controller.pc
+/home/lounes_bh/tiago_ws/devel/.private/tiago_trajectory_controller/share/tiago_trajectory_controller/cmake/tiago_trajectory_controllerConfig.cmake /home/lounes_bh/tiago_ws/devel/share/tiago_trajectory_controller/cmake/tiago_trajectory_controllerConfig.cmake
+/home/lounes_bh/tiago_ws/devel/.private/tiago_trajectory_controller/share/tiago_trajectory_controller/cmake/tiago_trajectory_controllerConfig-version.cmake /home/lounes_bh/tiago_ws/devel/share/tiago_trajectory_controller/cmake/tiago_trajectory_controllerConfig-version.cmake

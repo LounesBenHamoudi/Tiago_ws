@@ -1,0 +1,12 @@
+navigation_layers/social_navigation_layers
+/home/lounes_bh/tiago_ws/devel/.private/social_navigation_layers/lib/libsocial_layers.so /home/lounes_bh/tiago_ws/devel/lib/libsocial_layers.so
+/home/lounes_bh/tiago_ws/devel/.private/social_navigation_layers/lib/python3/dist-packages/social_navigation_layers/__init__.py /home/lounes_bh/tiago_ws/devel/lib/python3/dist-packages/social_navigation_layers/__init__.py
+/home/lounes_bh/tiago_ws/devel/.private/social_navigation_layers/lib/python3/dist-packages/social_navigation_layers/cfg/ProxemicLayerConfig.py /home/lounes_bh/tiago_ws/devel/lib/python3/dist-packages/social_navigation_layers/cfg/ProxemicLayerConfig.py
+/home/lounes_bh/tiago_ws/devel/.private/social_navigation_layers/lib/python3/dist-packages/social_navigation_layers/cfg/__init__.py /home/lounes_bh/tiago_ws/devel/lib/python3/dist-packages/social_navigation_layers/cfg/__init__.py
+/home/lounes_bh/tiago_ws/devel/.private/social_navigation_layers/lib/pkgconfig/social_navigation_layers.pc /home/lounes_bh/tiago_ws/devel/lib/pkgconfig/social_navigation_layers.pc
+/home/lounes_bh/tiago_ws/devel/.private/social_navigation_layers/share/social_navigation_layers/cmake/social_navigation_layersConfig-version.cmake /home/lounes_bh/tiago_ws/devel/share/social_navigation_layers/cmake/social_navigation_layersConfig-version.cmake
+/home/lounes_bh/tiago_ws/devel/.private/social_navigation_layers/share/social_navigation_layers/cmake/social_navigation_layersConfig.cmake /home/lounes_bh/tiago_ws/devel/share/social_navigation_layers/cmake/social_navigation_layersConfig.cmake
+/home/lounes_bh/tiago_ws/devel/.private/social_navigation_layers/share/social_navigation_layers/docs/ProxemicLayerConfig.dox /home/lounes_bh/tiago_ws/devel/share/social_navigation_layers/docs/ProxemicLayerConfig.dox
+/home/lounes_bh/tiago_ws/devel/.private/social_navigation_layers/share/social_navigation_layers/docs/ProxemicLayerConfig-usage.dox /home/lounes_bh/tiago_ws/devel/share/social_navigation_layers/docs/ProxemicLayerConfig-usage.dox
+/home/lounes_bh/tiago_ws/devel/.private/social_navigation_layers/share/social_navigation_layers/docs/ProxemicLayerConfig.wikidoc /home/lounes_bh/tiago_ws/devel/share/social_navigation_layers/docs/ProxemicLayerConfig.wikidoc
+/home/lounes_bh/tiago_ws/devel/.private/social_navigation_layers/include/social_navigation_layers/ProxemicLayerConfig.h /home/lounes_bh/tiago_ws/devel/include/social_navigation_layers/ProxemicLayerConfig.h

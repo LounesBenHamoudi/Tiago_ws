@@ -1,0 +1,1 @@
+/home/lounes_bh/tiago_ws/devel/.private/tiago_opencv_tutorial/lib/python3/dist-packages/tiago_opencv_tutorial/__init__.py

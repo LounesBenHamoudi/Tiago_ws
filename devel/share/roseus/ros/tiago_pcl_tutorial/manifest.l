@@ -1,0 +1,1 @@
+/home/lounes_bh/tiago_ws/devel/.private/tiago_pcl_tutorial/share/roseus/ros/tiago_pcl_tutorial/manifest.l

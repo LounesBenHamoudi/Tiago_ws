@@ -1,0 +1,8 @@
+prefix=/home/lounes_bh/tiago_ws/install
+
+Name: omni_base_controller_configuration
+Description: Description of omni_base_controller_configuration
+Version: 0.0.13
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

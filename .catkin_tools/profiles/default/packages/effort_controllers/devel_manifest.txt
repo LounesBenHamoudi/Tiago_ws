@@ -1,0 +1,5 @@
+ros_controllers/effort_controllers
+/home/lounes_bh/tiago_ws/devel/.private/effort_controllers/lib/libeffort_controllers.so /home/lounes_bh/tiago_ws/devel/lib/libeffort_controllers.so
+/home/lounes_bh/tiago_ws/devel/.private/effort_controllers/lib/pkgconfig/effort_controllers.pc /home/lounes_bh/tiago_ws/devel/lib/pkgconfig/effort_controllers.pc
+/home/lounes_bh/tiago_ws/devel/.private/effort_controllers/share/effort_controllers/cmake/effort_controllersConfig.cmake /home/lounes_bh/tiago_ws/devel/share/effort_controllers/cmake/effort_controllersConfig.cmake
+/home/lounes_bh/tiago_ws/devel/.private/effort_controllers/share/effort_controllers/cmake/effort_controllersConfig-version.cmake /home/lounes_bh/tiago_ws/devel/share/effort_controllers/cmake/effort_controllersConfig-version.cmake

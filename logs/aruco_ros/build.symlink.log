@@ -1,0 +1,14 @@
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/libaruco_ros_utils.so
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/python3/dist-packages/aruco_ros/__init__.py
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/python3/dist-packages/aruco_ros/cfg/ArucoThresholdConfig.py
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/python3/dist-packages/aruco_ros/cfg/__init__.py
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/pkgconfig/aruco_ros.pc
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/aruco_ros/marker_publisher
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/aruco_ros/double
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/aruco_ros/single
+Symlinking /home/lounes_bh/tiago_ws/devel/share/aruco_ros/cmake/aruco_rosConfig-version.cmake
+Symlinking /home/lounes_bh/tiago_ws/devel/share/aruco_ros/cmake/aruco_rosConfig.cmake
+Symlinking /home/lounes_bh/tiago_ws/devel/share/aruco_ros/docs/ArucoThresholdConfig.wikidoc
+Symlinking /home/lounes_bh/tiago_ws/devel/share/aruco_ros/docs/ArucoThresholdConfig-usage.dox
+Symlinking /home/lounes_bh/tiago_ws/devel/share/aruco_ros/docs/ArucoThresholdConfig.dox
+Symlinking /home/lounes_bh/tiago_ws/devel/include/aruco_ros/ArucoThresholdConfig.h

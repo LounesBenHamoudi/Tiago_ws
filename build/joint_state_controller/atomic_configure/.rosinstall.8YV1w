@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/lounes_bh/tiago_ws/devel/.private/joint_state_controller/setup.sh

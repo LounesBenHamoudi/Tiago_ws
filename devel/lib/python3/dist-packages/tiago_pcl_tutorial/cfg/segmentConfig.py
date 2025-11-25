@@ -1,0 +1,1 @@
+/home/lounes_bh/tiago_ws/devel/.private/tiago_pcl_tutorial/lib/python3/dist-packages/tiago_pcl_tutorial/cfg/segmentConfig.py

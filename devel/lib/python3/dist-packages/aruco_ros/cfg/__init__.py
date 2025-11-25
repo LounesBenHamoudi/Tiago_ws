@@ -1,0 +1,1 @@
+/home/lounes_bh/tiago_ws/devel/.private/aruco_ros/lib/python3/dist-packages/aruco_ros/cfg/__init__.py

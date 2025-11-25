@@ -1,0 +1,6 @@
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/libcontroller_manager_tests.so
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/python3/dist-packages/controller_manager_tests/__init__.py
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/pkgconfig/controller_manager_tests.pc
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/controller_manager_tests/dummy_app
+Symlinking /home/lounes_bh/tiago_ws/devel/share/controller_manager_tests/cmake/controller_manager_testsConfig-version.cmake
+Symlinking /home/lounes_bh/tiago_ws/devel/share/controller_manager_tests/cmake/controller_manager_testsConfig.cmake

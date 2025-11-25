@@ -1,0 +1,8 @@
+prefix=/home/lounes_bh/tiago_ws/install
+
+Name: omni_base_multi
+Description: Description of omni_base_multi
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

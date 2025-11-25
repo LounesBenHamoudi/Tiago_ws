@@ -1,0 +1,1 @@
+/home/lounes_bh/tiago_ws/devel/.private/pal_robotiq_controller_configuration/lib/pkgconfig/pal_robotiq_controller_configuration.pc

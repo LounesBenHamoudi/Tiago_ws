@@ -1,0 +1,5 @@
+aruco_ros/aruco
+/home/lounes_bh/tiago_ws/devel/.private/aruco/lib/libaruco.so /home/lounes_bh/tiago_ws/devel/lib/libaruco.so
+/home/lounes_bh/tiago_ws/devel/.private/aruco/lib/pkgconfig/aruco.pc /home/lounes_bh/tiago_ws/devel/lib/pkgconfig/aruco.pc
+/home/lounes_bh/tiago_ws/devel/.private/aruco/share/aruco/cmake/arucoConfig-version.cmake /home/lounes_bh/tiago_ws/devel/share/aruco/cmake/arucoConfig-version.cmake
+/home/lounes_bh/tiago_ws/devel/.private/aruco/share/aruco/cmake/arucoConfig.cmake /home/lounes_bh/tiago_ws/devel/share/aruco/cmake/arucoConfig.cmake

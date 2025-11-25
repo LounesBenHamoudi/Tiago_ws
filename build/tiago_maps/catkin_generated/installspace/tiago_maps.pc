@@ -1,0 +1,8 @@
+prefix=/home/lounes_bh/tiago_ws/install
+
+Name: tiago_maps
+Description: Description of tiago_maps
+Version: 2.2.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

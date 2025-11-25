@@ -1,0 +1,8 @@
+prefix=/home/lounes_bh/tiago_ws/devel/.private/controller_interface
+
+Name: controller_interface
+Description: Description of controller_interface
+Version: 0.5.4
+Cflags: -I/home/lounes_bh/tiago_ws/src/ros_control/controller_interface/include
+Libs: -L${prefix}/lib 
+Requires: roscpp hardware_interface pluginlib

@@ -1,0 +1,11 @@
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/libsocial_layers.so
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/python3/dist-packages/social_navigation_layers/__init__.py
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/python3/dist-packages/social_navigation_layers/cfg/ProxemicLayerConfig.py
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/python3/dist-packages/social_navigation_layers/cfg/__init__.py
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/pkgconfig/social_navigation_layers.pc
+Symlinking /home/lounes_bh/tiago_ws/devel/share/social_navigation_layers/cmake/social_navigation_layersConfig-version.cmake
+Symlinking /home/lounes_bh/tiago_ws/devel/share/social_navigation_layers/cmake/social_navigation_layersConfig.cmake
+Symlinking /home/lounes_bh/tiago_ws/devel/share/social_navigation_layers/docs/ProxemicLayerConfig.dox
+Symlinking /home/lounes_bh/tiago_ws/devel/share/social_navigation_layers/docs/ProxemicLayerConfig-usage.dox
+Symlinking /home/lounes_bh/tiago_ws/devel/share/social_navigation_layers/docs/ProxemicLayerConfig.wikidoc
+Symlinking /home/lounes_bh/tiago_ws/devel/include/social_navigation_layers/ProxemicLayerConfig.h

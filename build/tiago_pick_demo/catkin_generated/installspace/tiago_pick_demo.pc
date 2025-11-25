@@ -1,0 +1,8 @@
+prefix=/home/lounes_bh/tiago_ws/install
+
+Name: tiago_pick_demo
+Description: Description of tiago_pick_demo
+Version: 2.0.4
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

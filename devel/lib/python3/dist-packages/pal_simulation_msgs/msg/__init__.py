@@ -1,0 +1,1 @@
+/home/lounes_bh/tiago_ws/devel/.private/pal_simulation_msgs/lib/python3/dist-packages/pal_simulation_msgs/msg/__init__.py

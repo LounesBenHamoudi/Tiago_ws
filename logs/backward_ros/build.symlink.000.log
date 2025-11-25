@@ -1,0 +1,4 @@
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/libbackward.so
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/pkgconfig/backward_ros.pc
+Symlinking /home/lounes_bh/tiago_ws/devel/share/backward_ros/cmake/backward_rosConfig-version.cmake
+Symlinking /home/lounes_bh/tiago_ws/devel/share/backward_ros/cmake/backward_rosConfig.cmake

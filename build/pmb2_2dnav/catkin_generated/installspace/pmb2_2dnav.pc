@@ -1,0 +1,8 @@
+prefix=/home/lounes_bh/tiago_ws/install
+
+Name: pmb2_2dnav
+Description: Description of pmb2_2dnav
+Version: 2.1.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

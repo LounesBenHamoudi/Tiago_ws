@@ -1,0 +1,4 @@
+ros_control/controller_interface
+/home/lounes_bh/tiago_ws/devel/.private/controller_interface/lib/pkgconfig/controller_interface.pc /home/lounes_bh/tiago_ws/devel/lib/pkgconfig/controller_interface.pc
+/home/lounes_bh/tiago_ws/devel/.private/controller_interface/share/controller_interface/cmake/controller_interfaceConfig.cmake /home/lounes_bh/tiago_ws/devel/share/controller_interface/cmake/controller_interfaceConfig.cmake
+/home/lounes_bh/tiago_ws/devel/.private/controller_interface/share/controller_interface/cmake/controller_interfaceConfig-version.cmake /home/lounes_bh/tiago_ws/devel/share/controller_interface/cmake/controller_interfaceConfig-version.cmake

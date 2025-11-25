@@ -1,0 +1,8 @@
+prefix=/home/lounes_bh/tiago_ws/devel/.private/mouse_teleop
+
+Name: mouse_teleop
+Description: Description of mouse_teleop
+Version: 1000.4.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

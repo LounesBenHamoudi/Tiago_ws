@@ -1,0 +1,4 @@
+pmb2_navigation/pmb2_rgbd_sensors
+/home/lounes_bh/tiago_ws/devel/.private/pmb2_rgbd_sensors/lib/pkgconfig/pmb2_rgbd_sensors.pc /home/lounes_bh/tiago_ws/devel/lib/pkgconfig/pmb2_rgbd_sensors.pc
+/home/lounes_bh/tiago_ws/devel/.private/pmb2_rgbd_sensors/share/pmb2_rgbd_sensors/cmake/pmb2_rgbd_sensorsConfig.cmake /home/lounes_bh/tiago_ws/devel/share/pmb2_rgbd_sensors/cmake/pmb2_rgbd_sensorsConfig.cmake
+/home/lounes_bh/tiago_ws/devel/.private/pmb2_rgbd_sensors/share/pmb2_rgbd_sensors/cmake/pmb2_rgbd_sensorsConfig-version.cmake /home/lounes_bh/tiago_ws/devel/share/pmb2_rgbd_sensors/cmake/pmb2_rgbd_sensorsConfig-version.cmake

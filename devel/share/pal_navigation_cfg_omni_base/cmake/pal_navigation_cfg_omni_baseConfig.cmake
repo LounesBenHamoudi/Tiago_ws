@@ -1,0 +1,1 @@
+/home/lounes_bh/tiago_ws/devel/.private/pal_navigation_cfg_omni_base/share/pal_navigation_cfg_omni_base/cmake/pal_navigation_cfg_omni_baseConfig.cmake

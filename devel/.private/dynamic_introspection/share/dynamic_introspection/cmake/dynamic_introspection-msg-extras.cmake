@@ -1,0 +1,2 @@
+set(dynamic_introspection_MESSAGE_FILES "/home/lounes_bh/tiago_ws/src/dynamic_introspection/msg/BoolParameter.msg;/home/lounes_bh/tiago_ws/src/dynamic_introspection/msg/IntrospectionMsg.msg;/home/lounes_bh/tiago_ws/src/dynamic_introspection/msg/DoubleParameter.msg;/home/lounes_bh/tiago_ws/src/dynamic_introspection/msg/IntParameter.msg;/home/lounes_bh/tiago_ws/src/dynamic_introspection/msg/MarkerParameter.msg")
+set(dynamic_introspection_SERVICE_FILES "")

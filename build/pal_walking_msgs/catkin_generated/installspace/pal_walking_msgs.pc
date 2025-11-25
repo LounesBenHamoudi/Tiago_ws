@@ -1,0 +1,8 @@
+prefix=/home/lounes_bh/tiago_ws/install
+
+Name: pal_walking_msgs
+Description: Description of pal_walking_msgs
+Version: 0.20.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs humanoid_nav_msgs message_runtime

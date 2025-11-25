@@ -1,0 +1,1 @@
+/home/lounes_bh/tiago_ws/devel/.private/pal_control_msgs/share/roseus/ros/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.l

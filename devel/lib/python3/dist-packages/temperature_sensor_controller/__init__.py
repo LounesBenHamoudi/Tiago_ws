@@ -1,0 +1,1 @@
+/home/lounes_bh/tiago_ws/devel/.private/temperature_sensor_controller/lib/python3/dist-packages/temperature_sensor_controller/__init__.py

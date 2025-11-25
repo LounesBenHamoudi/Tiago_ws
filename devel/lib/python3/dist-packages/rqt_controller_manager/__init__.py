@@ -1,0 +1,1 @@
+/home/lounes_bh/tiago_ws/devel/.private/rqt_controller_manager/lib/python3/dist-packages/rqt_controller_manager/__init__.py

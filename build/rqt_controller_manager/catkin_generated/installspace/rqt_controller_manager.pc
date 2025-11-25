@@ -1,0 +1,8 @@
+prefix=/home/lounes_bh/tiago_ws/install
+
+Name: rqt_controller_manager
+Description: Description of rqt_controller_manager
+Version: 0.5.4
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

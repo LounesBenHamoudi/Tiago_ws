@@ -1,0 +1,7 @@
+slam_gmapping/gmapping
+/home/lounes_bh/tiago_ws/devel/.private/gmapping/lib/libslam_gmapping_nodelet.so /home/lounes_bh/tiago_ws/devel/lib/libslam_gmapping_nodelet.so
+/home/lounes_bh/tiago_ws/devel/.private/gmapping/lib/gmapping/slam_gmapping_replay /home/lounes_bh/tiago_ws/devel/lib/gmapping/slam_gmapping_replay
+/home/lounes_bh/tiago_ws/devel/.private/gmapping/lib/gmapping/slam_gmapping /home/lounes_bh/tiago_ws/devel/lib/gmapping/slam_gmapping
+/home/lounes_bh/tiago_ws/devel/.private/gmapping/lib/pkgconfig/gmapping.pc /home/lounes_bh/tiago_ws/devel/lib/pkgconfig/gmapping.pc
+/home/lounes_bh/tiago_ws/devel/.private/gmapping/share/gmapping/cmake/gmappingConfig.cmake /home/lounes_bh/tiago_ws/devel/share/gmapping/cmake/gmappingConfig.cmake
+/home/lounes_bh/tiago_ws/devel/.private/gmapping/share/gmapping/cmake/gmappingConfig-version.cmake /home/lounes_bh/tiago_ws/devel/share/gmapping/cmake/gmappingConfig-version.cmake

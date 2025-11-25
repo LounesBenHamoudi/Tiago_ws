@@ -1,0 +1,4 @@
+pal_gripper/pal_gripper
+/home/lounes_bh/tiago_ws/devel/.private/pal_gripper/lib/pkgconfig/pal_gripper.pc /home/lounes_bh/tiago_ws/devel/lib/pkgconfig/pal_gripper.pc
+/home/lounes_bh/tiago_ws/devel/.private/pal_gripper/share/pal_gripper/cmake/pal_gripperConfig-version.cmake /home/lounes_bh/tiago_ws/devel/share/pal_gripper/cmake/pal_gripperConfig-version.cmake
+/home/lounes_bh/tiago_ws/devel/.private/pal_gripper/share/pal_gripper/cmake/pal_gripperConfig.cmake /home/lounes_bh/tiago_ws/devel/share/pal_gripper/cmake/pal_gripperConfig.cmake

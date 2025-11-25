@@ -1,0 +1,8 @@
+prefix=/home/lounes_bh/tiago_ws/install
+
+Name: pal_urdf_utils
+Description: Description of pal_urdf_utils
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

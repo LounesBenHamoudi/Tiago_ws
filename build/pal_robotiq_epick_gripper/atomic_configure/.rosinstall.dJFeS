@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/lounes_bh/tiago_ws/devel/.private/pal_robotiq_epick_gripper/setup.sh

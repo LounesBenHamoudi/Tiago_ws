@@ -1,0 +1,1 @@
+/home/lounes_bh/tiago_ws/devel/.private/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs-msg-extras.cmake

@@ -1,0 +1,1 @@
+/home/lounes_bh/tiago_ws/devel/.private/aruco/share/aruco/cmake/arucoConfig.cmake

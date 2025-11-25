@@ -1,0 +1,8 @@
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/libplay_motion_helpers.so
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/python3/dist-packages/play_motion/__init__.py
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/pkgconfig/play_motion.pc
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/play_motion/pm_rrbot
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/play_motion/play_motion
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/play_motion/run_motion
+Symlinking /home/lounes_bh/tiago_ws/devel/share/play_motion/cmake/play_motionConfig.cmake
+Symlinking /home/lounes_bh/tiago_ws/devel/share/play_motion/cmake/play_motionConfig-version.cmake

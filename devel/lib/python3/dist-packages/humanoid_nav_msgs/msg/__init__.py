@@ -1,0 +1,1 @@
+/home/lounes_bh/tiago_ws/devel/.private/humanoid_nav_msgs/lib/python3/dist-packages/humanoid_nav_msgs/msg/__init__.py

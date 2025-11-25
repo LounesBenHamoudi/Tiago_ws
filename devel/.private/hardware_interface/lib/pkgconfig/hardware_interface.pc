@@ -1,0 +1,8 @@
+prefix=/home/lounes_bh/tiago_ws/devel/.private/hardware_interface
+
+Name: hardware_interface
+Description: Description of hardware_interface
+Version: 0.5.4
+Cflags: -I/home/lounes_bh/tiago_ws/src/ros_control/hardware_interface/include
+Libs: -L${prefix}/lib 
+Requires: roscpp

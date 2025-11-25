@@ -1,0 +1,1 @@
+/home/lounes_bh/tiago_ws/devel/.private/simple_grasping_action/lib/python3/dist-packages/simple_grasping_action/__init__.py

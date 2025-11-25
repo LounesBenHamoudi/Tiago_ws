@@ -1,0 +1,1 @@
+/home/lounes_bh/tiago_ws/devel/.private/humanoid_nav_msgs/share/common-lisp/ros/humanoid_nav_msgs/msg/ExecFootstepsActionResult.lisp

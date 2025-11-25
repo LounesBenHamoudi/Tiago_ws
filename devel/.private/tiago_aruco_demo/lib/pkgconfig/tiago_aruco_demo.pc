@@ -1,0 +1,8 @@
+prefix=/home/lounes_bh/tiago_ws/devel/.private/tiago_aruco_demo
+
+Name: tiago_aruco_demo
+Description: Description of tiago_aruco_demo
+Version: 2.0.4
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

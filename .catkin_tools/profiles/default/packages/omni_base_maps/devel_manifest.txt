@@ -1,0 +1,4 @@
+omni_base_navigation/omni_base_maps
+/home/lounes_bh/tiago_ws/devel/.private/omni_base_maps/lib/pkgconfig/omni_base_maps.pc /home/lounes_bh/tiago_ws/devel/lib/pkgconfig/omni_base_maps.pc
+/home/lounes_bh/tiago_ws/devel/.private/omni_base_maps/share/omni_base_maps/cmake/omni_base_mapsConfig.cmake /home/lounes_bh/tiago_ws/devel/share/omni_base_maps/cmake/omni_base_mapsConfig.cmake
+/home/lounes_bh/tiago_ws/devel/.private/omni_base_maps/share/omni_base_maps/cmake/omni_base_mapsConfig-version.cmake /home/lounes_bh/tiago_ws/devel/share/omni_base_maps/cmake/omni_base_mapsConfig-version.cmake

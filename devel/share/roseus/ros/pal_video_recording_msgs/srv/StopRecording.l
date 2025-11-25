@@ -1,0 +1,1 @@
+/home/lounes_bh/tiago_ws/devel/.private/pal_video_recording_msgs/share/roseus/ros/pal_video_recording_msgs/srv/StopRecording.l

@@ -1,0 +1,13 @@
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/libdiff_drive_controller.so
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/python3/dist-packages/diff_drive_controller/__init__.py
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/python3/dist-packages/diff_drive_controller/cfg/DiffDriveControllerConfig.py
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/python3/dist-packages/diff_drive_controller/cfg/__init__.py
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/diff_drive_controller/diffbot
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/diff_drive_controller/skidsteerbot
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/pkgconfig/diff_drive_controller.pc
+Symlinking /home/lounes_bh/tiago_ws/devel/share/diff_drive_controller/cmake/diff_drive_controllerConfig-version.cmake
+Symlinking /home/lounes_bh/tiago_ws/devel/share/diff_drive_controller/cmake/diff_drive_controllerConfig.cmake
+Symlinking /home/lounes_bh/tiago_ws/devel/share/diff_drive_controller/docs/DiffDriveControllerConfig.dox
+Symlinking /home/lounes_bh/tiago_ws/devel/share/diff_drive_controller/docs/DiffDriveControllerConfig.wikidoc
+Symlinking /home/lounes_bh/tiago_ws/devel/share/diff_drive_controller/docs/DiffDriveControllerConfig-usage.dox
+Symlinking /home/lounes_bh/tiago_ws/devel/include/diff_drive_controller/DiffDriveControllerConfig.h

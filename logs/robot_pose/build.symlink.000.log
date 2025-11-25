@@ -1,0 +1,6 @@
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/pkgconfig/robot_pose.pc
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/robot_pose/fake_odom_publisher
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/robot_pose/robot_pose_node
+Symlinking /home/lounes_bh/tiago_ws/devel/lib/robot_pose/distance_publisher_node
+Symlinking /home/lounes_bh/tiago_ws/devel/share/robot_pose/cmake/robot_poseConfig.cmake
+Symlinking /home/lounes_bh/tiago_ws/devel/share/robot_pose/cmake/robot_poseConfig-version.cmake
