@@ -1,0 +1,46 @@
+<launch>
+
+  <!-- ============================= -->
+  <!-- NLU node -->
+  <!-- ============================= -->
+  <node
+    pkg="head"
+    type="nlu_node.py"
+    name="nlu_node"
+    output="screen"
+  />
+
+  <node
+    pkg="head"
+    type="executor.py"
+    name="executor_node"
+    output="screen"
+  />
+
+  <node
+    pkg="head"
+    type="planner_model_node.py"
+    name="planner_model_node"
+    output="screen"
+  />
+
+
+
+  <!-- ============================= -->
+  <!-- Navigation / move_base bridge -->
+  <!-- ============================= -->
+  <node
+    pkg="auto_nav"
+    type="move_to_ref4.py"
+    name="move_to_ref"
+    output="screen"
+  />
+
+  <node
+    pkg="auto_nav"
+    type="nav_lead.py"
+    name="action_navigation"
+    output="screen"
+  />
+
+</launch>

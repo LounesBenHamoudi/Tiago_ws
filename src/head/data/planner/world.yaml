@@ -1,0 +1,11 @@
+places_map:
+  porte: porte1
+  table: table1
+  cuisine: cuisine
+  origine: origine
+
+tours:
+  default:
+    - porte
+    - table
+    - cuisine
