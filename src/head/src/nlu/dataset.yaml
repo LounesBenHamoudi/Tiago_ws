@@ -2,7 +2,7 @@ intents:
   GO_TO:
     slots: ["place"]
     slot_values:
-      place: ["porte", "table" , "cuisine"]
+      place: ["porte", "table" , "kuka"]
     templates:
       - "va à la {place}"
       - "déplace-toi vers la {place}"

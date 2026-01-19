@@ -2,87 +2,87 @@
 # -*- coding: utf-8 -*-
 
 import rospy
-from std_msgs.msg import String
+from std_msgs.msg import String, Bool
 from gpt4all import GPT4All
+import time
+
+from pal_interaction_msgs.msg import TtsActionGoal
+
 
 class TiagoChatNode:
     def __init__(self):
         rospy.init_node('tiago_chat_node')
 
         self.pub = rospy.Publisher('/tiago/output', String, queue_size=10)
-        rospy.Subscriber('/tiago/input', String, self.callback)
+        self.listen_pub = rospy.Publisher('/tiago/listen', Bool, queue_size=1)
+        rospy.Subscriber('/tiago/voice_input', String, self.callback)
+
+        # TTS via /tts/goal
+        self.tts_pub = rospy.Publisher('/tts/goal', TtsActionGoal, queue_size=10)
+        self.tts_seq = 0
 
         rospy.loginfo("Chargement du modèle GPT4All...")
-        self.model = GPT4All("ggml-model-gpt4all-falcon-q4_0.bin")
-        #self.model = GPT4All("ggml-mpt-7b-chat.bin")
+        self.model = GPT4All("ggml-mpt-7b-chat.bin")
 
-
-        # Prompt système court + très contraignant
-        self.system_prompt = (
-            # "Tu parles uniquement en français. "
-            # "Tu es TIAGo, un robot assistant. "
-            # "Règles: "
-            # "1) Si l'utilisateur dit bonjour/salut/hello, tu réponds toujours par 'Bonjour !' ou 'Salut !' puis une question courte. "
-            # "2) Ne répète pas 'Je suis TIAGo' sauf si l'utilisateur te demande qui tu es. "
-            # "3) Réponds en 1 à 2 phrases maximum. "
-            # "4) Pas de balises, pas de '## Instruction'. "
+        # Prompt système
+        self.prompt_intro = (
+            "Tu dois parler en français. "
+            "Tu es Tiago, un robot assistant intelligent et serviable. "
+            "Tu réponds toujours de manière claire, polie et concise. "
+            "Tu t'exprimes à la première personne. "
+            "Réponse courte."
         )
 
+        rospy.loginfo("🤖 Tiago est prêt à discuter (GPT4All sans chat_session).")
 
-        self.history = []          # garde les derniers échanges
-        self.max_turns = 4         # 2 tours utilisateur/assistant
+    def _tts_goal(self, text: str, lang_id: str = "fr_FR"):
+        text = (text or "").strip()
+        if not text:
+            return
 
+        self.tts_seq += 1
+        msg = TtsActionGoal()
+        msg.header.stamp = rospy.Time.now()
+        msg.goal_id.stamp = rospy.Time.now()
+        msg.goal_id.id = f"/tiago_chat_node-{self.tts_seq}-{int(time.time_ns())}"
 
-        # Démarre une session persistante
-        self.chat = self.model.chat_session()
-        self.chat.__enter__()
-        _ = self.model.generate(self.system_prompt, max_tokens=20, temp=0.2)
+        msg.goal.text.section = ""
+        msg.goal.text.key = ""
+        msg.goal.text.lang_id = ""
+        msg.goal.text.arguments = []
 
-        rospy.loginfo("Tiago est prêt à discuter !")
+        msg.goal.rawtext.text = text
+        msg.goal.rawtext.lang_id = lang_id
+        msg.goal.speakerName = ""
+        msg.goal.wait_before_speaking = 0.0
+
+        self.tts_pub.publish(msg)
 
     def callback(self, msg):
         user_input = msg.data.strip()
-        rospy.loginfo("Message reçu : %s", user_input)
-
-        # met à jour l'historique (format simple)
-        self.history.append(("Utilisateur", user_input))
-        self.history = self.history[-self.max_turns:]
-
-        # construit le contexte
-        history_txt = "\n".join([f"{role}: {text}" for role, text in self.history])
-
-        prompt = (
-            f"{self.system_prompt}\n\n"
-            f"{history_txt}\n"
-            f"Assistant:"
-        )
+        rospy.loginfo("Vous : %s", user_input)
 
         try:
-            response = self.model.generate(
-                prompt,
-                max_tokens=30,
-                temp=0.3,
-                top_p=0.9,
-                repeat_penalty=1.2
-            ).strip()
+            self.listen_pub.publish(False)
 
-            # nettoyage rapide
-            response = response.replace("## Instruction:", "").replace("##", "").strip()
+            # ✅ prompt + question + réponse courte (20 tokens)
+            full_prompt = f"{self.prompt_intro}\nUtilisateur: {user_input}\nTiago:"
+            response = self.model.generate(full_prompt, max_tokens=20).strip()
 
-            # ajoute la réponse à l'historique
-            self.history.append(("Assistant", response))
-            self.history = self.history[-self.max_turns:]
+            rospy.loginfo("🤖 Tiago : %s", response)
 
-            rospy.loginfo("Réponse générée : %s", response)
             self.pub.publish(response)
+            self._tts_goal(response, "fr_FR")
+
+            rospy.sleep(0.3)
+            self.listen_pub.publish(True)
 
         except Exception as e:
-            rospy.logerr("Erreur lors de la génération : %s", str(e))
+            rospy.logerr("Erreur GPT : %s", str(e))
             self.pub.publish("Désolé, une erreur est survenue.")
+            self._tts_goal("Désolé, une erreur est survenue.", "fr_FR")
+            self.listen_pub.publish(True)
 
-    def __del__(self):
-        if hasattr(self, "chat"):
-            self.chat.__exit__(None, None, None)
 
 if __name__ == '__main__':
     try:

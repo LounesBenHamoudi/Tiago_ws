@@ -3,9 +3,10 @@ places_map:
   table: table1
   cuisine: cuisine
   origine: origine
-
+  kuka: kuka
+  NED: ned
 tours:
   default:
     - porte
     - table
-    - cuisine
+    - kuka
